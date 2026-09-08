@@ -1,0 +1,10 @@
+CREATE TABLE Stores (
+    StoreID VARCHAR(10) PRIMARY KEY,
+    StoreName VARCHAR(100) NOT NULL,
+    Country VARCHAR(50) NOT NULL,
+    City VARCHAR(50) NOT NULL,
+    Address VARCHAR(150) NOT NULL,
+    OpeningDate DATE NOT NULL,
+    StoreType VARCHAR(30) NOT NULL,
+    StoreStatus VARCHAR(20) NOT NULL
+);
